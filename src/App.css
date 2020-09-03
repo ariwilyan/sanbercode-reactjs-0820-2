@@ -1,38 +1,105 @@
-.App {
+* {
+  font-family: serif;
+}
+
+.main-container {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 10px;
+  border: 1px solid #000;
+  border-radius: 20px;
+}
+
+h1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container-header-root {
+  padding: 20px;
+  padding-top: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container-header {
+  display: block;
+  margin-bottom: 1em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container-header-pelanggan {
+  display: inline-block;
+  width: 150px;
+  font-weight: bold;
+  font-size: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+.container-header-input {
+  display: inline-block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container-content {
+  display: block;
+  margin-bottom: 1em;
 }
+
+.container-content-header {
+  display: inline-block;
+  width: 150px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.container-content-form {
+  display: inline-block;
+}
+
+.button {
+  background: white;
+  border-radius: 20px;
+}
+
+.button-a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 1000px) {
+    #main-container {
+      width: 100%;
+      margin-top: 10px;
+      border: 1px solid #000;
+      border-radius: 20px;
+    }
+    h1 {
+      font-size: 1em;
+    }
+    .container-header-root {
+      padding: 10px;
+      padding-top: 0px;
+    }
+    .container-header-pelanggan {
+      display: inline-block;
+      width: 150px;
+      font-weight: bold;
+      font-size: 13px;
+    }
+    .container-header-input {
+      display: inline-block;
+      width: 75%;
+    }
+    .container-content-header {
+      display: inline-block;
+      width: 150px;
+      font-weight: bold;
+      font-size: 13px;
+    }
+    .container-content-form input{
+      width: 10px
+    }
+    .container-content-form label{
+      font-size: 14px
+    }
+    .button-a {
+      text-decoration: none;
+      color: black;
+      font-size: 13px
+    }
+ }
