@@ -133,7 +133,7 @@ class Buah extends Component {
                                         <tr key={index}>
                                             <td style={{padding: "10px"}}>{val.nama}</td>
                                             <td style={{padding: "10px"}}>{val.harga}</td>
-                                            <td style={{padding: "10px"}}>{val.berat/1000} kg</td>
+                                            <td style={{padding: "10px"}}>{val.berat} kg</td>
                                             <td style={{width: "20%", padding: "10px"}}>
                                                 <button value={index} style={{marginLeft: "10%", background: "#2ded60", cursor: "pointer"}} onClick={this.editForm}>Edit</button> {/* style={{marginRight: "5px"}} */}
                                                 <button value={index} style={{marginLeft: "15px", background: "#ff5757", cursor: "pointer"}} onClick={this.deleteForm}>Delete</button>
