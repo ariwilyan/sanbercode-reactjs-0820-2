@@ -7,7 +7,9 @@ import './App.css';
 // import Tugas12 from './Tugas-12/Tugas12';
 // import Tugas13 from './Tugas-13/Tugas12Convert';
 // import Tugas13 from './Tugas-13/Tugas13';
-import Tugas14 from './Tugas-14/Tugas14';
+// import Tugas14 from './Tugas-14/Tugas14';
+import Routes from './Tugas-15/Routes';
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
@@ -20,11 +22,16 @@ function App() {
       <br/>
       <Tugas11 />
       <br/>
-      <br/> */}
-      {/* <Tugas13 />
+      <br/>
+      <Tugas13 />
+      <br/>
+      <br/>
+      <Tugas14 />
       <br/>
       <br/> */}
-      <Tugas14 />
+      <Router>
+        <Routes />
+      </Router>
     </>
   );
 }
